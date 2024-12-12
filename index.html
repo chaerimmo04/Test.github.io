@@ -143,8 +143,6 @@
       question.answers.forEach(answer => {
         const answerImage = document.createElement('img');
         answerImage.src = answer.image; // 이미지 경로 지정
-        answerImage.style.width = "100px"; // 이미지 크기 조정 (필요한 경우)
-        answerImage.style.height = "auto"; // 비율 유지
 
         answerImage.onclick = () => handleAnswer(answer.result);
 
