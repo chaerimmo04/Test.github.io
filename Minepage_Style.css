@@ -81,6 +81,13 @@ body {
   gap: 0px;
   margin: 10px 0px;
 }
+.question-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    margin: 10px 0px;
+}
 
 .answer-container img {
   width: 300px !important; /* 기본 너비 */
