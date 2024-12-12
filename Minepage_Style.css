@@ -55,8 +55,8 @@ body {
     text-align: center;
 }
 .result img {
-  width: 700px !important;
-  max-width: 700px;
+  width: 500px !important;
+  max-width: 500px;
   height: auto;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -65,8 +65,8 @@ body {
   text-align: center;
 }
 .question img {
-    width: 700px !important;
-    max-width: 700px;
+    width: 500px !important;
+    max-width: 500px;
     height: auto;
     margin-bottom: 0px;
     position: relative;
@@ -89,7 +89,7 @@ body {
 }
 
 .answer-container img {
-  width: 700px !important; /* 기본 너비 */
+  width: 500px !important; /* 기본 너비 */
   max-width: 700px; /* 부모 컨테이너에 맞춤 */
   height: auto !important; /* 비율 유지 */
   cursor: pointer;
