@@ -17,7 +17,7 @@ body {
     background: #ffffff;
 }
 #main-container, #quiz-container, #result-container {
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -41,7 +41,9 @@ body {
     font-size: 180%;
 }
 .question, .answer-container {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    display: flex;
 }
 .result {
     width: 100%;
@@ -78,10 +80,11 @@ body {
   margin: 10px 0px;
 }
 .question-container {
-  display: flex;
-  align-items: center;
-  gap: 0px;
-  margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    margin: 10px 0px;
 }
 
 .answer-container img {
