@@ -100,5 +100,6 @@ img {
     }
     .result img, .question img {
         max-width: 400px;
+        align-self: center;
     }
 }
