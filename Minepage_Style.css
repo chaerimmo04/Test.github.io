@@ -88,10 +88,10 @@ img {
     /* 데스크톱 화면용 스타일 */
 @media (min-width: 761px) {
   img {
-      max-width: 500px; /* 고정된 최대 크기 */
+      max-width: 300px; /* 고정된 최대 크기 */
       height: auto; /* 비율 유지 */
   }
   .result img, .question img {
-      max-width: 500px;
+      max-width: 300px;
   }
 }
