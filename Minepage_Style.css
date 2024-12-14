@@ -95,3 +95,8 @@ img {
   .result img, .question img {
       max-width: 500px;
   }
+    button {
+      max-width: 85%;
+      font-size: 18px;
+  }
+}
