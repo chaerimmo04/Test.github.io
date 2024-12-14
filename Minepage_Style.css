@@ -41,6 +41,7 @@ body {
     margin-bottom: 20px;
 }
 .result {
+    display: flex;
     margin-top: 30px;
     padding: 20px;
     text-align: center;
