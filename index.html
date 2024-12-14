@@ -164,7 +164,7 @@
     }
 
     function showResult() {
-      quizContainer.style.display = 'flex';
+      quizContainer.style.display = 'none';
 
       const resultCounts = selectedAnswers.reduce((counts, resultId) => {
         counts[resultId] = (counts[resultId] || 0) + 1;
