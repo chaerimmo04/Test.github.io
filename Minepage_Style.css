@@ -25,9 +25,10 @@ body {
     display: flex;
 }
 #main-container img {
-  max-width: 350px; 
-  height: auto; 
-  margin: 20px 0;
+    max-width: 350px; 
+    width: 350px;
+    height: auto; 
+    margin: 20px 0;
 }
 #main-container > h1 {
     font-weight: 500;
