@@ -1,3 +1,30 @@
+/* 모바일 화면용 스타일 */
+@media (max-width: 768px) {
+  img {
+    max-width: 90%; /* 화면 너비의 90% */
+    height: auto; /* 비율 유지 */
+  }
+  .result img, .question img {
+    max-width: 90%;
+  }
+  button {
+    max-width: 90%;
+    font-size: 18px; /* 모바일에서 버튼 텍스트 크기 감소 */
+  }
+}
+
+/* 데스크톱 화면용 스타일 */
+@media (min-width: 769px) {
+  img {
+    max-width: 400px; /* 고정된 최대 크기 */
+    height: auto; /* 비율 유지 */
+  }
+  .result img, .question img {
+    max-width: 400px;
+  }
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
