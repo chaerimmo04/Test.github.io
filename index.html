@@ -164,7 +164,7 @@
     }
 
     function showResult() {
-      quizContainer.style.display = 'none';
+      quizContainer.style.display = 'flex';
 
       const resultCounts = selectedAnswers.reduce((counts, resultId) => {
         counts[resultId] = (counts[resultId] || 0) + 1;
@@ -189,7 +189,7 @@
     function restartQuiz() {
       selectedAnswers = [];
       currentQuestionIndex = 0;
-      resultContainer.style.display = 'none';
+      resultContainer.style.display = 'flex';
       mainContainer.style.display = 'flex';
     }
   </script>
