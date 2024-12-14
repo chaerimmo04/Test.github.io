@@ -45,7 +45,7 @@ body {
     margin-top: 30px;
     padding: 20px;
     text-align: center;
-    flex-direction: colunm;
+    flex-direction: column;
     justify-content: center;
 }
 .result img {
