@@ -45,6 +45,8 @@ body {
     margin-top: 30px;
     padding: 20px;
     text-align: center;
+    flex-direction: colunm;
+    justify-content: center;
 }
 .result img {
     max-width: 100%;
