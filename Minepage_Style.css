@@ -68,14 +68,14 @@ img {
     /* 모바일 화면용 스타일 */
 @media (max-width: 768px) {
   img {
-      max-width: 90%; /* 화면 너비의 90% */
+      max-width: 85%; /* 화면 너비의 90% */
       height: auto; /* 비율 유지 */
   }
   .result img, .question img {
-      max-width: 90%;
+      max-width: 85%;
   }
   button {
-      max-width: 90%;
+      max-width: 85%;
       font-size: 18px;
   }
 }
@@ -83,9 +83,9 @@ img {
     /* 데스크톱 화면용 스타일 */
 @media (min-width: 769px) {
   img {
-      max-width: 400px; /* 고정된 최대 크기 */
+      max-width: 500px; /* 고정된 최대 크기 */
       height: auto; /* 비율 유지 */
   }
   .result img, .question img {
-      max-width: 400px;
+      max-width: 500px;
   }
