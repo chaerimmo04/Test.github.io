@@ -42,8 +42,7 @@ body {
 .result {
     margin-top: 30px;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: none;
     text-align: center;
 }
 .result img {
@@ -68,7 +67,7 @@ button:hover {
 img {
     max-width: 100%;
     height: auto;
-    margin: 3px 0;
+    margin: 0px 0;
 }
 
     /* 모바일 화면용 스타일 */
