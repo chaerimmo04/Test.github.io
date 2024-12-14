@@ -2,9 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: inherit;
-    color: #000000;
     font-family: 'Pretendard';
+    color: #000000;
 }
 body {
     margin: 0;
@@ -67,32 +66,31 @@ button:hover {
 img {
     max-width: 100%;
     height: auto;
-    margin: 1px;
 }
 
-    /* 모바일 화면용 스타일 */
+/* 모바일 화면용 스타일 */
 @media (max-width: 768px) {
-  img {
-      max-width: 90%; /* 화면 너비의 90% */
-      height: auto; /* 비율 유지 */
-  }
-  .result img, .question img {
-      max-width: 90%;
-  }
-  button {
-      max-width: 90%;
-      font-size: 18px;
-  }
+    img {
+        max-width: 95%; /* 화면 너비의 95% */
+        height: auto; /* 비율 유지 */
+    }
+    .result img, .question img {
+        max-width: 95%;
+    }
+    button {
+        max-width: 95%;
+        font-size: 18px;
+    }
 }
 
-    /* 데스크톱 화면용 스타일 */
+/* 데스크톱 화면용 스타일 */
 @media (min-width: 769px) {
-  img {
-      max-width: 400px; /* 고정된 최대 크기 */
-      height: auto; /* 비율 유지 */
-  }
-  .result img, .question img {
-      max-width: 400px;
-      align-self: center; /*세로로 가운데 정렬*/
-  }
+    img {
+        max-width: 400px; /* 고정된 최대 크기 */
+        height: auto; /* 비율 유지 */
+    }
+    .result img, .question img {
+        max-width: 400px;
+        align-self: center; /* 세로 가운데 정렬 */
+    }
 }
