@@ -143,9 +143,7 @@
       question.answers.forEach(answer => {
         const answerImage = document.createElement('img');
         answerImage.src = answer.image; // 이미지 경로 지정
-
         answerImage.onclick = () => handleAnswer(answer.result);
-
         answerContainer.appendChild(answerImage); //답변 이미지 추가
       });
 
