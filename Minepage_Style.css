@@ -93,5 +93,7 @@ img {
   }
   .result img, .question img {
       max-width: 400px;
+      display: block;
+      margin: 0 auto; /*세로로 가운데 정렬*/
   }
 }
